@@ -1,0 +1,16 @@
+/*android extra small device*/
+@media(max-width:767px){
+  margin-top: 20px;
+}
+/*tablet or small device*/
+@media(min-width:768px) and (max-width:991px){
+    
+}
+/*medium device or small laptop*/
+@media(min-width:992px) and (max-width:1199px){
+	
+}
+/*large laptop or desktop*/
+@media(min-width:1200px){
+	
+}

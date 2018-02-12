@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Installation</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+  </head>
+<body>
+    
+     
+    <section class="container">
+        <div class="parallax-window background" data-parallax="scroll" data-image-src="images/nature.jpg">
+          <div class="container form-top"></div>
+           <div class="container registration-form">
+             <h3 class="header">Registration Form</h3>
+              <form action="#" method="get">
+              
+              <div class="form-group row">
+                    <label for="name" class="col-sm-2 col-sm-offset-2 col-form-label">Name :</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="name" placeholder="Name" required>
+                    </div>
+                </div> 
+                <div class="form-group row">
+                  <label for="email" class="col-sm-2 col-sm-offset-2 col-form-label">Email :</label>
+                  <div class="col-sm-5">
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="password" class="col-sm-offset-2 col-sm-2 col-form-label" required>Password :</label>
+                  <div class="col-sm-5">
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <label for="date" class="col-sm-offset-2 col-sm-2 col-form-label">Date Of Birth :</label>
+                  <div class="col-sm-5">
+                    <input type="date" class="form-control" id="date" placeholder="date">
+                  </div>
+                </div>
+                <div class="form-group row">
+                       <label for="gender" class="col-sm-offset-2 col-sm-2 col-form-label">Gender :</label>
+                        <div class="col-sm-5">
+                         <label class="radio-inline">
+                          <input type="radio" name="gender" id="gender" value="male"> Male
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="gender" id="gender" value="female"> Female
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="gender" id="other" value="other" disabled> Other
+                        </label>
+                    </div>        
+                 </div>
+                 
+                 <div class="form-group row">
+                       <label for="gender" class="col-sm-offset-2 col-sm-2 col-form-label">Skills :</label>
+                        <div class="col-sm-5">
+                         <label class="checkbox-inline">
+                          <input type="checkbox" name="skill" id="skill" value="html">html
+                        </label>
+                        <label class="checkbox-inline">
+                          <input type="checkbox" name="skill" id="bootstrap" value="bootstrap"> bootstrap
+                        </label>
+                        <label class="checkbox-inline">
+                          <input type="checkbox" name="SKILL" id="php" value="php">php
+                        </label>
+                    </div>        
+                 </div>
+                 
+                 <div class="form-group row">
+                  <label for="blood" class="col-sm-offset-2 col-sm-2 col-form-label">Blood Group :</label>
+                  <div class="col-sm-5">
+                    <select class="form-control">
+                          <option>Select Blood group</option>
+                          <option>A+</option>
+                          <option>A-</option>
+                          <option>B+</option>
+                          <option>AB+</option>
+                          <option>AB-</option>
+                          <option>O+</option>
+                          <option>O-</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                  <label for="file" class="col-sm-offset-2 col-sm-2 col-form-label">Upload Image :</label>
+                  <div class="col-sm-5">
+                    <input type="file" class="form-control" id="file" placeholder="upload">
+                  </div>
+                </div>
+                
+                <div class="form-group row">
+                <label for="about" class="col-sm-offset-2 col-sm-2 col-form-label">About :</label>
+                <div class="col-sm-5">
+                <textarea class="form-control" id="about" rows="3"></textarea>
+                    </div>
+              </div>
+                
+                
+                
+                <div class="form-group row">
+                  <div class="col-sm-offset-4 col-sm-2">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                  <div class="col-sm-offset-1 col-sm-2">
+                    <button type="reset" class="btn btn-primary">Reset</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+           </div>
+    </section> 
+    
+   
+    
+     <script src="js/jquery-3.2.1.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/parallax.min.js"></script>
+</body>
+</html>
